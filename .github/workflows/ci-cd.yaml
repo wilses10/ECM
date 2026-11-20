@@ -28,7 +28,7 @@ jobs:
           node-version: '20'
       - name: Installer les dépendances
         working-directory: app/backend
-        run: npm install --omit=dev
+        run: npm install
       - name: Lancer les tests
         working-directory: app/backend
         run: npm test --if-present
