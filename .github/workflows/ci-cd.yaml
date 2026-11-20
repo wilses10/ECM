@@ -6,10 +6,12 @@ on:
     paths:
       - 'app/**'
       - 'k8s/**'
+      - '.github/workflows/**'
   pull_request:
     branches: [main]
     paths:
       - 'app/**'
+  workflow_dispatch:
 
 env:
   REGISTRY: docker.io
