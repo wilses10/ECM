@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: ecm-backend
-          image: localhost:5001/ecm-backend:latest
+          image: wilses10/ecm-backend:sha-0130f6f
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
